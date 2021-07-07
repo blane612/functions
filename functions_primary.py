@@ -26,14 +26,24 @@
 
 print('The absolute value of -15 is:', abs(-15))
 
+hex_number = hex(21) 
+id(hex_number)
+print(id(hex_number))
+print('The hexadecimal value of 21 is', hex_number)
+print(pow (2, 5))
+print(round(3.75123))
+print(len('Brielle' + 'Lane'))
+# print(len('Brielle') + len('Lane'))
+
+
 
 # --------------- Section 2 --------------- #
 
 # 1 | Function Definitions no Parameters
 #
 # Relevant Documentation:
-#   - https://www.w3schools.com/python/python_functions.asp
-#
+#   - https://www., cw3schools.com/python/python_functions.asp
+#* 
 # Define the following functions:
 #   1 - Define a function that will print out your name.
 #   2 - Define a function that will print out three animals that you like.
@@ -43,7 +53,12 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+def print_name():
+  print('Brielle Lane')
+print_name()  
 
+  
+  
 
 # 2 | Function Definitions with Parameters
 #
@@ -71,3 +86,15 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+def cube(num):
+  print(num * num * num)
+
+cube(34)
+
+def sum_of_3(a, b, c):
+  print(a + b + c)
+sum_of_3(1, 2, 3)  
+
+def string():
+  print('dog ' * 5) 
+string()
